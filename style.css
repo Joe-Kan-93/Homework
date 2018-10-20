@@ -1,0 +1,388 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+}
+header {
+    height: 1000px;
+    background-image: url(https://cdn.colorlib.com/shapely/wp-content/uploads/sites/12/2016/03/photo-1443527216320-7e744084f5a7-1.jpg);
+    background-color: white;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+/* Navigation */
+nav {
+    width: 100%;
+    margin: 0;
+    padding: 20px;
+    overflow: hidden;
+    background-color: white;
+    height: 50px;
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+}
+nav a {
+    font-size: 18px;
+    color: gray;
+    text-decoration: none;
+    padding: 15px;
+    right: 100px;
+    transition: color 1s ease;
+    cursor: pointer;
+}
+.logo {
+    font-size: 32px;
+    font-family: 'Raleway', sans-serif;
+    color: gray;
+    padding-left: 200px;
+    margin: 0;
+    cursor: pointer;
+}
+
+.dropdown {
+    overflow: hidden;
+}
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: gray;
+    padding: 15px;
+    margin: 0;
+    background-color: white;
+    transition: color 2s ease;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: fixed;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    float: none;
+    color: gray;
+    padding: 15px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+nav a:hover,
+.dropdown:hover .dropbtn {
+    color: blue;
+}
+
+
+
+/* HOME PAGE */
+#home {
+    text-align: center;
+}
+#first-hline {
+    margin: 0;
+    padding-top: 400px;
+    font-size: 60px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+.first-p {
+    margin: 50px auto 25px auto;
+    font-size: 18px;
+    color: white;
+}
+
+.btn-f {
+    width: 200px;
+    height: 50px;
+    border: 3px solid white;
+    background: transparent;
+}
+.btn-f:hover {
+    background-color: white;
+}
+.btn-f a {
+    text-decoration: none;
+    color: white;
+}
+.btn-f:hover a {
+    color: black;
+}
+
+.btn-s {
+    width: 200px;
+    height: 50px;
+    background-color: blue;
+    transition: background-color 0.5s ease-in-out;
+    border: none;
+}
+.btn-s:hover {
+    background-color: blueviolet;
+}
+.btn-s a {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+
+/* First Section */
+#first-sec {
+    height: 1200px;
+    text-align: center;
+}
+/* First Article */
+.first-ar {
+    height: 600px;
+}
+.first-ar .first-div {
+    width: 700px;
+    float: left;
+    margin: 100px auto auto 300px;
+}
+.first-ar .first-div img {
+    width: 700px;
+    height: 500px;
+}
+.first-ar .second-div {
+    width: 400px;
+    float: right;
+    margin: 100px 400px auto auto;
+    text-align: start;
+}
+/* Second Article */
+.second-ar {
+    height: 600px;
+    background-color: whitesmoke;
+}
+.second-ar .first-div {
+    width: 400px;
+    float: left;
+    margin: 100px auto auto 400px;
+    text-align: start;
+}
+.second-ar .second-div {
+    width: 700px;
+    float: right;
+    margin: 50px 300px auto auto;
+}
+.second-ar .second-div img {
+    width: 700px;
+    height: 500px;
+}
+
+#sec-sec-hline {
+    padding-top: 80px;
+    font-family: 'Raleway', sans-serif;
+    color: black;
+}
+.first-sec-p {
+    color: gray;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+
+/* Second Section */
+#sec-sec {
+    width: 100%;
+    height: 500px;
+    background-image: url("https://cdn.colorlib.com/shapely/wp-content/uploads/sites/12/2016/12/photo-1452723312111-3a7d0db0e024.jpg");
+    background-color: white;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    padding: 40px auto;
+}
+#second-hline {
+    margin: 0;
+    padding-top: 150px;
+    font-size: 60px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+.second-sec-p {
+    padding-bottom: 40px;
+    color: white;
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+
+/* Third Section */
+#third-sec {
+    height: 1050px;
+    text-align: center;
+    background-color: whitesmoke;
+    padding: 20px;
+}
+#third-sec-hline {
+    padding-top: 50px;
+}
+.third-sec-p {
+    color: gray;
+}
+
+
+
+/* Gallery Section */
+#gallery-sec {
+    height: 1250px;
+    background-color: #000;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+#gall-sec-hline {
+    padding-top: 70px;
+    color: white;
+}
+.gall-sec-p {
+    color: white;
+    padding: 20px 0 20px 0;
+}
+#gallery-sec img {
+    width: 475px;
+    height: 350px;
+    float: left;
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    transition: opacity 2s ease;
+}
+  
+#gallery-sec img:hover {
+  opacity: 0.5;
+}
+
+
+
+/* Fifth Section */
+#fifth-sec {
+    height: 500px;
+    text-align: center;
+    background-image: url("https://cdn.colorlib.com/shapely/wp-content/uploads/sites/12/2016/12/photo-1451417379553-15d8e8f49cde.jpg");
+    background-color: white;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#fifth-sec-hline {
+    padding-top: 100px;
+    margin: 0;
+    color: white;
+}
+.fifth-sec-p {
+    color: white;
+    padding: 30px 0 30px 0;
+}
+
+.fifth-sec-img {
+    border-radius: 50%;
+}
+
+
+
+/* Sixth Section */
+#sixth-sec {
+    height: 320px;
+    text-align: center;
+}
+
+#sixth-sec img {
+    widows: 40px;
+    height: 50px;
+    padding: 50px;
+    opacity: .4;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    transition: opacity 1s ease;
+}
+#sixth-sec img:hover {
+    opacity: 1;
+}
+
+#sixth-sec-hline {
+    padding-top: 50px;
+}
+
+
+
+/* Seventh Section */
+#seventh-sec {
+    height: 180px;
+    background-color: whitesmoke;
+    text-align: center;
+    padding: 40px;
+    margin: 0;
+}
+
+#last-sec-hline {
+    display: inline-block;
+    padding: 80px 200px 0 0;
+    margin: 0;
+}
+
+.btn-b {
+    width: 200px;
+    height: 50px;
+    background-color: blue;
+    transition: background-color 0.5s ease-in-out;
+    border: none;
+}
+.btn-b:hover {
+    background-color: blueviolet;
+}
+.btn-b a {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+
+
+/* Footer */
+footer {
+    height: 100px;
+    background-color: black;
+    padding: 80px 0 0 400px;
+}
+
+.last-p {
+    color: #ddd;
+}
+footer p a {
+    color: white;
+    text-decoration: none;
+}
+footer p a:hover {
+    color: blue;
+}
+#button {
+    height: 30px;
+    float: right;
+    margin-right: 30px;
+    background: transparent;
+    border: 2px solid gray;
+    color: gray;
+}
